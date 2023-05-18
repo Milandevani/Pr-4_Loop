@@ -1,0 +1,19 @@
+<script>
+    var num=parseInt(prompt("enter number:"))
+
+    var i=2, check=0;
+    while(i<num)
+    {
+      if(num%2==0)
+      {
+        check++;
+        break;
+      }
+      i++;
+    }
+
+    if(check==0)
+      document.write(num + " is a Prime Number");
+    else
+      document.write(num + " is not a Prime Number");
+    </script>
